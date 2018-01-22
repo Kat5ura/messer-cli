@@ -1,0 +1,26 @@
+{
+    "name": "messer-cli",
+    "version": "1.0.0",
+    "description": "A cli tools suit like Schweizer Armeemesser",
+    "main": "index.js",
+    "bin": {
+        "messer": "./bin/messer.js",
+        "messer-exec": "./bin/messer-exec.js",
+        "messer-loadgit": "./bin/messer-loadgit.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "messer",
+        "cli"
+    ],
+    "author": "Katsura",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^2.0.1",
+        "commander": "^2.11.0",
+        "download-git-repo": "^1.0.1",
+        "inquirer": "^3.2.0"
+    }
+}
